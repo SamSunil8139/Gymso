@@ -1,0 +1,161 @@
+*
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.img-here img
+{
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+}
+
+.carousel
+{
+    background: rgba(0,0,0,0.7)url(gym.jpg);
+    background-repeat: none;
+    background-blend-mode: darken;
+    height: 100vh;
+    background-size:cover;
+    object-fit: cover;
+}
+
+.details
+{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.intro , .nw , .plans, .ct-us
+{
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+
+.btns a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.btns button
+{
+    margin-left: 3rem;
+}
+
+.vl
+{
+    border-left: 2px solid grey;
+    height: 30em;
+    width: 0%;
+}
+
+.card
+{
+    height: 30rem;
+    width: 25rem;
+    margin-left: -1rem;
+    perspective: 1000;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.plans .card
+{
+    margin: auto;
+}
+.card-img-top
+{
+    height: 25rem;
+    width: 100%;
+}
+
+.rate
+{
+    height: 3rem;
+    width: 3rem;
+}
+
+.name
+{
+    margin-top: -1rem;
+}
+
+.hd
+{
+    text-align: center;
+}
+
+.adr
+{
+    margin-left: -2.5rem;
+    margin-top: -.1rem;
+}
+
+.maps img
+{
+    width: 98%;
+    height: 15rem;
+}
+
+footer
+{
+    background-color: #a8b8bd;
+}
+
+
+@media screen and (max-width:768px) {
+    .vl
+    {
+        border-bottom: 2px solid grey;
+        width: 20em;
+        height: 0%;  
+    }
+
+    .nw , .intro , .plans , .ct-us , footer
+    {
+        height: auto;
+    }
+
+    .card
+    {
+        width: 100%;
+    }
+
+    .plans .card
+    {
+        width: 100%;
+        height: 15rem;
+        margin: auto;
+    }
+
+    .plans .card .card-img-top
+    {
+        height: 10rem;
+    }
+
+    .name h3
+    {
+        font-size: 20px;
+    }
+
+    .price , .name
+    {
+        width: 50%;
+
+    }
+
+    
+}
+
